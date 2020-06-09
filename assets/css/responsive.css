@@ -1,0 +1,19 @@
+@media screen and (max-width: 990px){
+	.navbar-nav.justify-content-end.menu{
+		background:#000;
+	}	
+	.navbar-nav a.btn {
+    margin-left: 0px;
+	}
+	.stickytop .navbar-nav.justify-content-end.menu{
+		background:#fff;
+	}
+}
+
+@media screen and (max-width: 440px){
+	.media-body .ratting {
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+	}
+}
