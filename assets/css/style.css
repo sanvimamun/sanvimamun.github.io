@@ -83,7 +83,7 @@ nav.stickytop .navbar-brand img+img{
 	background:url("../img/header-bg.jpg") no-repeat;
 	background-size:cover;
 	background-position:center center;
-	height:605px;
+	height:700px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -93,7 +93,7 @@ nav.stickytop .navbar-brand img+img{
 	width:100%;
 	background:rgba(0,0,0, .700);
 	overflow: hidden;
-	height:605px;
+	height:700px;
 }
 .content{
 	margin-top:160px;
@@ -140,7 +140,7 @@ nav.stickytop .navbar-brand img+img{
 /* section 3 */
 .sec3 {
     overflow: hidden;
-    margin-top: 610px;
+    margin-top: 700px;
     padding: 100px 0px;
 }
 .left-content img{
@@ -338,11 +338,11 @@ nav.stickytop .navbar-brand img+img{
 }
 
 /* section 7 */
-.sec7{
-	
-}
 .protfolio-area{
 	padding:70px;
+}
+.protfolio-content{
+	width:100%;
 }
 .protfolio-content .section-title{
 	margin-bottom:0px;
@@ -358,6 +358,7 @@ nav.stickytop .navbar-brand img+img{
 	font-weight: 300;
 }
 .button-group.filter-button-group.text-center {
+	width:100%;
 	margin-bottom: 20px;
 	margin-top: 2rem !important;
 }
@@ -378,18 +379,12 @@ nav.stickytop .navbar-brand img+img{
     color: #fff;
 	border-radius: 30px;
 }
-.grid-sizer {
-	width:1%;
+.grid{
+	width:100%;
 }
-.grid {
-    overflow: hidden;
-}
-.grid-item { 
-	padding:10px;
-	width: 25%;
-}
-.grid-item img{
-	width: 100%; 
+.grid img{
+	width:100%;
+	margin-bottom:20px;
 }
 .grid .grid-item{
 	position:relative;
@@ -402,9 +397,8 @@ nav.stickytop .navbar-brand img+img{
 .hover-active{
 	align-items: center;
     background:rgba(0,0,0, .700);
-    width: 93%;
+    width: 90%;
     height: 93%;
-	margin-top:9px;
     justify-content: center;
     display: flex;
 	opacity:0;
@@ -413,9 +407,8 @@ nav.stickytop .navbar-brand img+img{
 }
 .protfolio-area .grid-item:hover .hover-active {
     opacity: 1;
-    width: 93%;
+    width: 90%;
     height: 93%;
-    margin-top: 9px;
 	transform: rotate(0deg) scale(1);
 }
 .grid-item .hover-active a {
