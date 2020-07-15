@@ -8,8 +8,23 @@
 	.stickytop .navbar-nav.justify-content-end.menu{
 		background:#fff;
 	}
+	.protfolio-area .grid-item:hover .hover-active {
+    width: 84%;
+    height: 88%;
+	}
 }
-
+@media screen and (max-width: 762px){
+	.protfolio-area .grid-item:hover .hover-active {
+    width: 95%;
+    height: 96%;
+	}
+}
+@media screen and (max-width: 480px){
+	.protfolio-area .grid-item:hover .hover-active {
+    width: 91%;
+    height: 94%;
+	}
+}
 @media screen and (max-width: 440px){
 	.media-body .ratting {
     float: left;
