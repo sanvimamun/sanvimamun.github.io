@@ -19,7 +19,7 @@ $(document).ready(function () {
 	  // typed js
 	var typed = new Typed('.type', {
 	  strings: [
-		"Sanvi Rahaman..",
+		"Md Mamunur Roshid..",
 		"A Web Designer..",
 		"A Web Developer..",
 	  ],
